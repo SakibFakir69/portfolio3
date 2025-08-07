@@ -45,19 +45,20 @@ export const GridBackground = () => {
 
 export default function GridBackgroundView() {
   return (
-    <div className="relative w-full h-screen bg-slate-950 overflow-hidden">
+    <div className="relative w-full h-screen  bg-slate-950 overflow-hidden">
+
       <GridBackground />
 
       <div className="relative w-full flex justify-between invisible md:visible ">
+        <div className="h-20 w-80 bg-gray-700   blur-3xl "></div>
 
-        <div className="h-20 w-80 bg-gray-700 backdrop-blur-3xl blur-3xl rounded-t-4xl "></div>
-
+       
         <div className="h-20 w-80 bg-gray-700   blur-3xl "></div>
       </div>
 
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center -mt-8 h-full">
         <div className="text-center px-4 flex flex-col gap-y-2.5">
-          <span className="text-white">Experience the Dynamic World</span>
+          <span className="text-white">Crafting Real-World Solutions</span>
 
           <h1 className="lg:text-6xl md:text-5xl text-3xl md:font-bold font-semibold text-white">
             Turning Concepts into Seamless{" "}

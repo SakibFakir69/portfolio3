@@ -25,7 +25,7 @@ const menuItems: MenuItem[] = [
   },
   {
     icon: <Bell className="h-5 w-5" />,
-    label: "Notifications",
+    label: "Skill",
     href: "#",
     gradient:
       "radial-gradient(circle, rgba(249,115,22,0.15) 0%, rgba(234,88,12,0.06) 50%, rgba(194,65,12,0) 100%)",
@@ -33,7 +33,7 @@ const menuItems: MenuItem[] = [
   },
   {
     icon: <Settings className="h-5 w-5" />,
-    label: "Settings",
+    label: "Project",
     href: "#",
     gradient:
       "radial-gradient(circle, rgba(34,197,94,0.15) 0%, rgba(22,163,74,0.06) 50%, rgba(21,128,61,0) 100%)",
@@ -41,12 +41,21 @@ const menuItems: MenuItem[] = [
   },
   {
     icon: <User className="h-5 w-5" />,
-    label: "Profile",
+    label: "Experience",
     href: "#",
     gradient:
       "radial-gradient(circle, rgba(239,68,68,0.15) 0%, rgba(220,38,38,0.06) 50%, rgba(185,28,28,0) 100%)",
     iconColor: "group-hover:text-red-500 dark:group-hover:text-red-400",
   },
+   {
+    icon: <User className="h-5 w-5" />,
+    label: "Contact",
+    href: "#",
+    gradient:
+      "radial-gradient(circle, rgba(239,68,68,0.15) 0%, rgba(220,38,38,0.06) 50%, rgba(185,28,28,0) 100%)",
+    iconColor: "group-hover:text-red-500 dark:group-hover:text-red-400",
+  },
+
 ];
 
 // Animation variants for different parts of the menu
@@ -92,7 +101,7 @@ const sharedTransition = {
 
 function MenuBar(): React.JSX.Element {
   return (
-   <div className=" flex justify-center w-full">
+   <div className=" flex justify-center w-full absolute  z-50">
      <motion.nav
       className="p-2 rounded-2xl bg-white/60 dark:bg-black/60 backdrop-blur-lg border border-gray-200/80 dark:border-gray-800/80 shadow-lg dark:shadow-gray-900/20 relative overflow-hidden w-1/2 flex justify-center  "
       initial="initial "
