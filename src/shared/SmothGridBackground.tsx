@@ -58,7 +58,7 @@ export default function GridBackgroundView() {
 
       <div className="relative z-10 flex items-center justify-center -mt-8 h-full">
         <div className="text-center px-4 flex flex-col gap-y-2.5">
-          <span className="text-white">Crafting Real-World Solutions</span>
+          <span className="text-white">Crafting Real-World <span className="text-red-400">Solutions </span></span>
 
           <h1 className="lg:text-6xl md:text-5xl text-3xl md:font-bold font-semibold text-white">
             Turning Concepts into Seamless{" "}

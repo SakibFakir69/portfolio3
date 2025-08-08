@@ -3,10 +3,10 @@
 
 import React from 'react'
 
-function project() {
+function Project() {
   return (
     <div>project</div>
   )
 }
 
-export default project
+export default Project
